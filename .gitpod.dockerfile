@@ -1,6 +1,6 @@
 FROM gitpod/workspace-mysql:latest
 
-USER gitpod
+USER root
 
 # Install MySQL
 RUN install-packages mysql-server \
